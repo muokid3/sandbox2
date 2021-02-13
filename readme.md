@@ -1,3 +1,2 @@
-# KH Labs - Sandbox
-## Used for intro to k8s
+# Chaos Engineers Labs - Sandbox
 
