@@ -1,7 +1,7 @@
 
 provider "aws" {
-  profile = "labs"
-  region  = "eu-west-1"
+  profile = "muokid3"
+  region  = "eu-west-2"
 }
 
 module "dev" {

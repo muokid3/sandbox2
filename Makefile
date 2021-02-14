@@ -7,7 +7,7 @@ up: fmt plan apply
 start:
 	docker container run -it -d \
 		   --env TF_NAMESPACE=$$TF_NAMESPACE \
-		   --env AWS_PROFILE="kh-labs" \
+		   --env AWS_PROFILE="muokid3" \
 		   -v /var/run/docker.sock:/var/run/docker.sock \
 		   -v $$PWD:/$$(basename $$PWD) \
 		   -v $$PWD/creds:/root/.aws \

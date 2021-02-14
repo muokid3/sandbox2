@@ -19,7 +19,7 @@ variable "name" {
 
 variable "aws_region" {
   description = "Europe"
-  default     = "af-south-1"
+  default     = "eu-west-2"
 }
 
 variable "instance_type" {
